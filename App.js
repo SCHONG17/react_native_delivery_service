@@ -7,15 +7,9 @@ import store from "./redux/store";
 import { Provider } from "react-redux";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
-const Stack = createNativeStackNavigator();
+import { Home } from "./Screens";
 
-const Home = () => {
-  return (
-    <View>
-      <Text>Home</Text>
-    </View>
-  );
-};
+const Stack = createNativeStackNavigator();
 
 function App() {
   return (
